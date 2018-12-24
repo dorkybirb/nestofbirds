@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: darkblue;
+  background-image: url("../images/blue-owl.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 72px;
+  padding-top: 20px;
+  background-color: black;
+  /* TODO - add bottom blur*/
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 24px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+}
+
+nav a:hover {
+  transition-duration: 1s;
+  color: white;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+.hero-text {
+  margin-top: 90px;
+  text-align: center;
+  /*background-color: gray;*/
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 20;
+  opacity: 0.3;
+}
