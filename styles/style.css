@@ -1,11 +1,21 @@
 body {
   margin: 0;
-  background-color: darkblue;
+  background-color: black;
   background-image: url("../images/blue-owl.jpeg");
   background-size: cover;
   color: white;
   font-family: "Aaux ProLight", sans-serif;
+  /*animation: 2s infinite alternate glow;*/
 }
+
+/*@keyframes glow {
+  from {
+    filter: brightness(0.5);
+  }
+  to {
+    filter: brightness(2);
+  }
+}*/
 
 header {
   display: flex;
@@ -60,6 +70,7 @@ h2 {
 footer {
   position: absolute;
   bottom: 0;
-  right: 20;
+  right: 0;
+  margin-right: 20px;
   opacity: 0.3;
 }
