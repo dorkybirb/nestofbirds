@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  background-color: darkblue;
-  background-image: url("../images/blue-owl.jpeg");
-  background-size: cover;
-  color: white;
+  background-color: white;
+  background-image: url("../images/parrot.jpeg");
+  background-size: 100vh auto;
+background-repeat: no-repeat;
+  background-position: right 10% bottom 110%;
+  color: black;
   font-family: "Aaux ProLight", sans-serif;
 }
 
@@ -13,15 +15,16 @@ header {
   align-items: center;
   padding: 0 97px;
   padding-top: 20px;
-  background-color: black;
-  box-shadow: 0 10px 35px 20px black;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 35px 0px rgba(0, 0, 0, 0.15);
   font-family: "ZCOOL XiaoWei", sans-serif;
 }
 
 h1 {
   font-family: "ZCOOL XiaoWei", serif;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(0, 0, 0, 0.65);
   font-size: 24px;
 }
 
@@ -34,13 +37,13 @@ nav li {
 nav a {
   text-transform: uppercase;
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(0, 0, 0, 0.85);
   text-decoration: none;
 }
 
 nav a:hover {
   transition-duration: 1s;
-  color: white;
+  color: rgba(0, 0, 0, 0.45);
 }
 
 .current {
@@ -49,7 +52,8 @@ nav a:hover {
 
 .hero-text {
   margin-top: 124px;
-  text-align: center;
+  margin-left: 200px;
+  /*text-align: left;*/
   /*background-color: gray;*/
 }
 
@@ -61,5 +65,5 @@ footer {
   position: absolute;
   bottom: 0;
   right: 20;
-  opacity: 0.3;
+  opacity: 0.45;
 }
